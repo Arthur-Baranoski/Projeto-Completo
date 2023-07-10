@@ -1,0 +1,127 @@
+main {
+  margin-bottom: 20px;
+}
+
+/* COR DOS TEXTOS */
+tr,
+th,
+h1,
+h2,
+label,
+input,
+.remove-button,
+.edit-button {
+  color: #fff;
+}
+
+/* QUADRO COM AS INFORMACOES DE SERVICO */
+.container {
+  max-width: 100vh;
+  margin: 20px auto;
+  padding: 20px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* FORMULARIO DE PREENCHIMENTO */
+.form-group {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: transparent;
+  border-radius: 6px;
+}
+
+.form-group input[type="submit"] {
+  font-weight: bold;
+  background-color: #08c;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #03c1ce;
+}
+
+/* TABELA DE INFORMACOES */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#total {
+  font-weight: bold;
+}
+
+/* BOTAO DE ADICIONAR OS ITENS A TABELA */
+.add-button {
+  background-color: #08c;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #03c1ce;
+}
+
+/* BOTAO DE REMOVER OS ITENS ADICIONADOS */
+.remove-button {
+  background-color: #f44336;
+  border: none;
+  padding: 3px 9px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #d32f2f;
+}
+
+/* REMOVER SETINHAS DE AUMENTAR OU DIMINUIR 
+  NOS CAMPOS DE PREENCHIMENTO class="remove" NO CAMPO DE PREENCHIMENTO*/
+.remove[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.remove[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* BOTAO DE REMOVER OS ITENS ADICIONADOS */
+.edit-button {
+  background-color: #08c;
+  border: none;
+  padding: 3px 9px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #03c1ce;
+}

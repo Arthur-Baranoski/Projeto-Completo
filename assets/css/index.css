@@ -1,0 +1,14 @@
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #1f242d; */
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* section:nth-child(odd) {
+  background: #323946;
+} */
